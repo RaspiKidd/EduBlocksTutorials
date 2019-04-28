@@ -14,14 +14,19 @@ edublocks-uninstall
 curl -sSL connect.edublocks.org | bash
 ```
 
+**NOTE:** *If you want EduBlocks to start when your Raspberry Pi starts up type:*
+```
+edublocks-startup-enable
+```
+
 ## What you will need
-1 x breadboard <br>
-1 x Red LED <br>
-1 x Yellow LED <br>
-1 x Green LED <br>
-3 x male to male jumper wires <br>
-4 x male to female jumper wires <br>
-1 x Raspberry Pi setup
+* 1 x breadboard
+* 1 x Red LED
+* 1 x Yellow LED
+* 1 x Green LED
+* 3 x male to male jumper wires
+* 4 x male to female jumper wires
+* 1 x Raspberry Pi setup
 
 ## Creating the circuit
 ![Circuit Diagram](TrafficLightsDiagram.png)
@@ -35,6 +40,9 @@ curl -sSL connect.edublocks.org | bash
 Once your circuit looks like the diagram above it's time to code.
 
 ## Starting EduBlocks
+
+**NOTE:** *If you have EduBlocks starting when the Raspberry Pi starts up, you can skip this section*
+
 1. Click on the Raspberry icon in the top left corner
 2. Click on Programming
 3. Click on EduBlocks Connect. This will open a Terminal window.
