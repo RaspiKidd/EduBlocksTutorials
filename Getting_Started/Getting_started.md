@@ -8,7 +8,7 @@ EduBlocks can be used with the Raspberry Pi, micro:bit, Adafruit Circuit Python 
 ## How To Install EduBlocks on The Raspberry Pi
 EduBlocks does not come installed on the Raspberry Pi by default, so for us to install it we need to open a terminal window to do this by clicking on the icon that looks like this ![Terminal Icon](Images/Terminal.png) It is located at the top along from the menu icon.
 
-Once the Terminal has opened you will see a window similar to this: ![Terminal Window](Images/Terminal_Window.png)
+Once the Terminal has opened you will see a window similar to this: ![Terminal Window](Images/TerminalWindow.png)
 
 Now we need to type the following command:
 
