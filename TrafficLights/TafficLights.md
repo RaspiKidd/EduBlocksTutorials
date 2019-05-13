@@ -15,7 +15,7 @@ curl -sSL connect.edublocks.org | bash
 ```
 
 **NOTE:** *If you want EduBlocks to start when your Raspberry Pi starts up type:*
-```
+```bash
 edublocks-startup-enable
 ```
 
