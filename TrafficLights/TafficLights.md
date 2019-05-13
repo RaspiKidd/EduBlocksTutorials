@@ -4,7 +4,7 @@
 Within this tutorial we are going to create a simple circuit using 3 LEDs 1 x red, 1 x yellow and 1 x green. We are going to use EduBlocks and a Raspberry Pi to code and control the LEDs to simulate traffic lights.
 
 ## Installing EduBlocks
-1. Open a Terminal window by clicking on ![Terminal Icon](TerminalIcon.png)
+1. Open a Terminal window by clicking on ![Terminal Icon](Images/TerminalIcon.png)
 2. If you have used EduBlocks before you will need to delete the old version by typing the following into the Terminal
 ```bash
 edublocks-uninstall
@@ -29,7 +29,7 @@ edublocks-startup-enable
 * 1 x Raspberry Pi setup
 
 ## Creating the circuit
-![Circuit Diagram](TrafficLightsDiagram.png)
+![Circuit Diagram](Images/TrafficLightsDiagram.png)
 
 * Red LED = pin18
 * Yellow LED = pin24
@@ -61,7 +61,7 @@ Once your circuit looks like the diagram above it's time to code.
 5. Click and drag an **import time** block and attach it under __from gpiozero import *__
 
 Your code should look like this: <br>
-![Code Block 0](CodeBlock00.png)
+![Code Block 0](Images/CodeBlock00.png)
 
 This imports Python Libraries. gpiozero helps us communicate with the GPIO pins on the Raspberry Pi and the time library lets us control pauses within the code.
 
@@ -84,14 +84,14 @@ This imports Python Libraries. gpiozero helps us communicate with the GPIO pins 
 
 
 Your code should now look like this: <br>
-![Code Block 1](CodeBlock01.png)
+![Code Block 1](Images/CodeBlock01.png)
 
 ### Setting up a loop
 1. Click on Basic
 2. Click and drag a **while True:** block to the code area and attach it under the **green=LED(12)** block.
 
 Your code should now look like this: <br>
-![Code Block 2](CodeBlock02.png)
+![Code Block 2](Images/CodeBlock02.png)
 
 All code from now on will go inside the **while True:**. This will keep our code running forever simulating traffic lights.
 
@@ -104,7 +104,7 @@ All code from now on will go inside the **while True:**. This will keep our code
 6. Change the 1 to a 3
 
 Your code should look like this:<br>
-![Code Block 3](CodeBlock03.png)
+![Code Block 3](Images/CodeBlock03.png)
 
 This will turn the red LED on for 3 seconds.
 
@@ -116,7 +116,7 @@ This will turn the red LED on for 3 seconds.
 5. Click and drag a **time.sleep(1)** block to the coding area and attach it under the **yellow.on()** block
 
 Your code should now look like this:<br>
-![Code Block 4](CodeBlock04.png)
+![Code Block 4](Images/CodeBlock04.png)
 
 The red LED is still on and the Yellow LED turns on for 1 second.
 
@@ -139,7 +139,7 @@ The red LED is still on and the Yellow LED turns on for 1 second.
 <div class="page-break"></div>
 
 Your code should now look like this:<br>
-![Code Block 5](CodeBlock05.png)
+![Code Block 5](Images/CodeBlock05.png)
 
 This turns the Red and Yellow LEDs off and turns the Green LED on for 3 seconds.
 
@@ -157,7 +157,7 @@ This turns the Red and Yellow LEDs off and turns the Green LED on for 3 seconds.
 <div class="page-break"></div>
 
 Your code should now look like this:<br>
-![Code Block 6](CodeBlock06.png)
+![Code Block 6](Images/CodeBlock06.png)
 
 This turns the green LED off and the yellow LED back on for 1 second.
 
@@ -172,10 +172,10 @@ This turns the green LED off and the yellow LED back on for 1 second.
 <div class="page-break"></div>
 
 ## Completed Code
-![Code Block 7](CodeBlock07.png)
+![Code Block 7](Images/CodeBlock07.png)
 
 ## Running the Code
-1. click on this icon ![Three Lines](ThreeLines.png)
+1. click on this icon ![Three Lines](Images/ThreeLines.png)
 2. Click on **Run**
 
 You should now see your LEDs running in the sequence of traffic lights.
