@@ -10,7 +10,9 @@ The Python3 and micro:bit modes of Edublocks will work as soon as you click on t
 ## How to Setup EduBlocks on Raspberry Pi
 EduBlocks does not come pre-installed on the Raspberry Pi, so we first need to open up a terminal window, which can be done by clicking on the icon that looks like this ![Terminal Icon](Images/TerminalIcon.png).  It is located at the top of the screen near the menu icon.
 
-Once the Terminal has opened you will see a window similar to this: ![Terminal Window](Images/TerminalWindow.png)
+Once the Terminal has opened you will see a window similar to this:
+<br>
+ ![Terminal Window](Images/TerminalWindow.png)
 
 Now you need to type the following command:
 
@@ -44,6 +46,7 @@ You are now ready to program your CPX using EduBlocks.
 Open any web browser on any system and type `app.edublock.org` within the address bar.
 You will see the following screen:
 ![Landing Screen](Images/StartupScreen.png)
+<br>
 Click on the mode that you want to use.
 
 We will dig deeper into the different modes in other tutorials.
