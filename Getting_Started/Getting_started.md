@@ -8,7 +8,7 @@ EduBlocks can be used with the Raspberry Pi, micro:bit, Adafruit Circuit boards 
 The Python3 and micro:bit modes of Edublocks will work as soon as you click on them. The Raspberry Pi and Adafruit Circuit Playground Express board need a few extra steps to use, as shown below:
 
 ## How to Setup EduBlocks on Raspberry Pi
-EduBlocks does not come pre-installed on the Raspberry Pi, so we first need to open up a terminal window, which can be done by clicking on the icon that looks like this ![Terminal Icon](Images/Terminal.png).  It is located at the top of the screen near the menu icon.
+EduBlocks does not come pre-installed on the Raspberry Pi, so we first need to open up a terminal window, which can be done by clicking on the icon that looks like this ![Terminal Icon](Images/TerminalIcon.png).  It is located at the top of the screen near the menu icon.
 
 Once the Terminal has opened you will see a window similar to this: ![Terminal Window](Images/TerminalWindow.png)
 
