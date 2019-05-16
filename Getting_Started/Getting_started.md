@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started with EduBlocks
 
 ## What Is EduBlocks?
 Edublocks is a program that allows you to write real Python code using a visual block format, similar to Scratch. Edublocks is helping educators teach younger children how to program in Python using blocks and by the time they are able to move on to written Python they will already understand the Python syntax and program flow.
@@ -17,7 +17,7 @@ Now you need to type the following command:
 ```bash
 curl -sSL connect.edublocks.org | bash
 ```
-Once you have typed in the line above, press enter. The software will then install itself. 
+Once you have typed in the line above, press enter. The software will then install itself.
 
 When it's done, type in the following and press enter once again:
 ```bash
