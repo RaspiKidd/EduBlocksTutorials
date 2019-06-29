@@ -35,7 +35,7 @@ edublocks-startup-enable
 * Yellow LED = pin24
 * Green LED = pin12
 
-**NOTE:** *Each LED has 1 x long leg, which is the positive leg. This connects to the pins on the Raspberry Pi and 1 x short leg which connects to ground/negative. Within this tutorial the short legs connect to a common ground by connecting to the negative rail on the breadboard then one wire going from there to ground on the Raspberry Pi.*
+**NOTE:** *Each LED has 1 x long leg, which is the positive leg. This connects to the pins on the Raspberry Pi and 1 x short leg which connects to ground/negative. Within this tutorial the short legs connect to a common ground by connecting to the negative rail on the breadboard then one wire going from there to ground on the Raspberry Pi*.
 
 Once your circuit looks like the diagram above it's time to code.
 
@@ -136,8 +136,6 @@ The red LED is still on and the Yellow LED turns on for 1 second.
 13. Click and drag a **time.sleep(1)** block to the code area and attach it under the **green.on()** block.
 14. Change the 1 to a 3.
 
-<div class="page-break"></div>
-
 Your code should now look like this:<br>
 ![Code Block 5](Images/CodeBlock05.png)
 
@@ -154,8 +152,6 @@ This turns the Red and Yellow LEDs off and turns the Green LED on for 3 seconds.
 8. Click on **Basic**
 9. Click and drag a **time.sleep(1)** block to the code area and attach it under **yellow.on()**
 
-<div class="page-break"></div>
-
 Your code should now look like this:<br>
 ![Code Block 6](Images/CodeBlock06.png)
 
@@ -168,8 +164,6 @@ This turns the green LED off and the yellow LED back on for 1 second.
 4. Click on the small arrow next to **on** and click on **off**
 
 #### Your code is now complete!
-
-<div class="page-break"></div>
 
 ## Completed Code
 ![Code Block 7](Images/CodeBlock07.png)
