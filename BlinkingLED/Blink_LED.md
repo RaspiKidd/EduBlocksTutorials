@@ -37,7 +37,7 @@ There are two things we need to do to start EduBlocks
 3. Click on **LED** click and drag an **led.on()** block to the coding area and attach it under **led =LED(18)**. Click on the arrow next to on and click on **blink**
 
 Your code should now look like this:
-![LED blink](Blink.png)
+![LED blink](Code.png)
 
 ## Running the code
 To run your code click on **Run** on the toolbar above the coding area. 

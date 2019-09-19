@@ -1,0 +1,28 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="z=SEGV/bel0F=[/qg#Gw">led</variable>
+  </variables>
+  <block type="importgpiozero" id="{C}YW%i~Z@m:IRjK6eH@" x="179" y="84">
+    <next>
+      <block type="ledset" id="moTy+TEU[gz{$O)H4bkV">
+        <field name="led" id="z=SEGV/bel0F=[/qg#Gw" variabletype="">led</field>
+        <value name="text">
+          <shadow type="textinline" id="d[+F{vyh,(`Zl80$TdEk">
+            <field name="text">18</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="ledaction" id="2.K0)yJ=bqR,Bv[nC,Wq">
+            <field name="led" id="z=SEGV/bel0F=[/qg#Gw" variabletype="">led</field>
+            <field name="action">blink</field>
+            <value name="text">
+              <shadow type="textinline" id="ttd1]*jq_6#r|7%82DQa">
+                <field name="text"></field>
+              </shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
