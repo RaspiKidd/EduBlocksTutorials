@@ -1,4 +1,4 @@
-# Blinking LED
+# Blinking an LED
 Within this tutorial we are going to make an LED blink on and off using EduBlocks and a Raspberry Pi.
 
 ## Equipment You Will Need
