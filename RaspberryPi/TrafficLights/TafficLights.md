@@ -4,23 +4,6 @@
 
 Within this tutorial we are going to create a simple circuit using 3 LEDs 1 x red, 1 x yellow and 1 x green. We are going to use EduBlocks and a Raspberry Pi to code and control the LEDs to simulate traffic lights.
 
-## Installing EduBlocks
-
-1. Open a Terminal window by clicking on ![Terminal Icon](Images/TerminalIcon.png)
-2. If you have used EduBlocks before you will need to delete the old version by typing the following into the Terminal
-```bash
-edublocks-uninstall
-```
-3. Now we need to install the new version of EduBlocks by typing the following into the Terminal
-```bash
-curl -sSL connect.edublocks.org | bash
-```
-
-**NOTE:** *If you want EduBlocks to start when your Raspberry Pi starts up type:*
-```bash
-edublocks-startup-enable
-```
-
 ## What you will need
 
 * 1 x breadboard
