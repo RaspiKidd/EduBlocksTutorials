@@ -1,0 +1,207 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="99JjqIqEzXMm;Jys!IMo">secLeds</variable>
+    <variable type="" id="Ag7VD6Wl^Rxi3V|GjA@=">minLeds</variable>
+    <variable type="" id="eG=FSK?~cs?hTPUN)Y`Y">hourLeds</variable>
+    <variable type="" id="@-UGt7~qZR$p-biXa}6k">hours</variable>
+    <variable type="" id="}q(XXD6kBBw2{+Pnt%:p">minute</variable>
+    <variable type="" id="-w0t8@A6Pp+]BU9e9gFH">var</variable>
+    <variable type="" id="grlWlQA.i=|@rw/Bzwoo">minutes</variable>
+    <variable type="" id="%tSA5Gr{BFg)}4L6Y05|">seconds</variable>
+    <variable type="" id="42S7e=Pq+F`_iKzuX23{">adjust</variable>
+    <variable type="" id="YF-Fg*e)(~I`Q/I4dyfv">vBit</variable>
+    <variable type="" id="Kw*?4v5*8L8QffcLZs[V">lastTime</variable>
+    <variable type="" id="KTU`NZN,oK}8wa;#}^i[">tick</variable>
+    <variable type="" id="[-.zvp3Ws?HATOc}B*)I">displayBinary</variable>
+    <variable type="" id="MckO`YJIQ3gRafDr2L{8">now</variable>
+    <variable type="" id="6ov{T7zi#)p:%2D)2`]L">elapsedMs</variable>
+    <variable type="" id="[uy6[nx*{c*{US]@{WEz">i</variable>
+    <variable type="" id="Px8c-c2oaNe`2*.jR527">j</variable>
+    <variable type="" id="+319!}M%=)$EUrga|2c2">k</variable>
+    <variable type="" id="z(wGLi?PUEjoE}B`.xCy">m</variable>
+    <variable type="" id="qgx[Wmpk[v2|TUU3p@#7">n</variable>
+    <variable type="" id="N41+rdr/TH2@B:WjFWh7">o</variable>
+    <variable type="" id="O4@D?R/{jph~KC|T_QSW">p</variable>
+    <variable type="" id="aA#SwFqocg?*1Z3#ah5h">v</variable>
+    <variable type="" id="f$V9e-#Zlp{n@!#n2z41">q</variable>
+    <variable type="" id="JZv),wYe6oL(5Am@!bZw">r</variable>
+    <variable type="" id="%[%W^~w#Hx4IdXYh87Ah">s</variable>
+    <variable type="" id="@[[EMg7RAPit_YHDzP?J">t</variable>
+    <variable type="" id="T-SZt[4z`},kW,BgfJsf">u</variable>
+    <variable type="" id="]-L3P6h.6CPRS0L|nE%`">w</variable>
+  </variables>
+  <block type="import_microbit" id="a/Xxp$GUxmG1B)v*lS#l" x="42" y="17">
+    <next>
+      <block type="variables_set" id="3/ytb9:1Ec4bSD_asg6Z">
+        <field name="VAR" id="99JjqIqEzXMm;Jys!IMo" variabletype="">secLeds</field>
+        <field name="NAME">=</field>
+        <value name="varset">
+          <shadow type="textinline" id="aX|y*t7}$i[0qKqKUYDL">
+            <field name="text">[[4,4], [3,4], [2,4], [1,4], [0,4], [0,3]]</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="variables_set" id="T{n}{g=RsE_=iyTMe@tF">
+            <field name="VAR" id="Ag7VD6Wl^Rxi3V|GjA@=" variabletype="">minLeds</field>
+            <field name="NAME">=</field>
+            <value name="varset">
+              <shadow type="textinline" id="$OdG~7~([MG?cseS)+S0">
+                <field name="text">[[4,2], [3,2], [2,2], [1,2], [0,2], [0,1]]</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="variables_set" id="#S+fxSB8h15W|M(%$k;:">
+                <field name="VAR" id="eG=FSK?~cs?hTPUN)Y`Y" variabletype="">hourLeds</field>
+                <field name="NAME">=</field>
+                <value name="varset">
+                  <shadow type="textinline" id="0h)c.rI)tINEDv{`%#VF">
+                    <field name="text">[[4,0], [3,0], [2,0], [1,0], [0,0]]</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="variables_set" id="abi[ucz)L0e`/9@Vo#b6">
+                    <field name="VAR" id="@-UGt7~qZR$p-biXa}6k" variabletype="">hours</field>
+                    <field name="NAME">=</field>
+                    <value name="varset">
+                      <shadow type="textinline" id="VkR3WPML,U!p/rWtRGK:">
+                        <field name="text">0</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="@H5RLEe=U09i:uLeQUmY">
+                        <field name="VAR" id="grlWlQA.i=|@rw/Bzwoo" variabletype="">minutes</field>
+                        <field name="NAME">=</field>
+                        <value name="varset">
+                          <shadow type="textinline" id="5W.NabCr?,aG-MgaJDvM">
+                            <field name="text">0</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="3p4#`ZFAnMcs579k%y8z">
+                            <field name="VAR" id="%tSA5Gr{BFg)}4L6Y05|" variabletype="">seconds</field>
+                            <field name="NAME">=</field>
+                            <value name="varset">
+                              <shadow type="textinline" id="]0hQ~ZZ+8t;b%a3xbHZA">
+                                <field name="text">0</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="uwZA@*],O1(I)_xipMkt">
+                                <field name="VAR" id="42S7e=Pq+F`_iKzuX23{" variabletype="">adjust</field>
+                                <field name="NAME">=</field>
+                                <value name="varset">
+                                  <shadow type="textinline" id=";Nl3U)WQ92,`Zg^{XN-/">
+                                    <field name="text">-10</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="define" id="/Pt0hG@9=aR6F!7f$]IL">
+                                    <value name="1">
+                                      <shadow type="textinline" id="gI1K_UPftur31BH5?(~1">
+                                        <field name="text"></field>
+                                      </shadow>
+                                      <block type="variables_get" id="6AkWMXSn:Oib0+QG_P*D">
+                                        <field name="VAR" id="[-.zvp3Ws?HATOc}B*)I" variabletype="">displayBinary</field>
+                                      </block>
+                                    </value>
+                                    <value name="2">
+                                      <shadow type="textinline" id="vGwiYT(qw4{X9mM7p(5x">
+                                        <field name="text">value, numBits, leds</field>
+                                      </shadow>
+                                    </value>
+                                    <statement name="DO">
+                                      <block type="variables_set" id="^g+-@u0mKoKA7_EYGs{l">
+                                        <field name="VAR" id="aA#SwFqocg?*1Z3#ah5h" variabletype="">v</field>
+                                        <field name="NAME">=</field>
+                                        <value name="varset">
+                                          <shadow type="textinline" id="g|B]FbS_NhWNVXqL#0F5">
+                                            <field name="text">value</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="for" id="P#[pj{D^:M;Q/bi`|Ymh">
+                                            <value name="letter">
+                                              <shadow type="textinline" id="5JstAN~z@XuoW=!j-Lu3">
+                                                <field name="text">i</field>
+                                              </shadow>
+                                            </value>
+                                            <value name="no">
+                                              <shadow type="textinline" id="SMkIoF4nA~t3I`,d=_%x">
+                                                <field name="text">0, numBits</field>
+                                              </shadow>
+                                            </value>
+                                            <statement name="DO">
+                                              <block type="variables_set" id="mf8T/hoLS?45M1Sm_SY.">
+                                                <field name="VAR" id="YF-Fg*e)(~I`Q/I4dyfv" variabletype="">vBit</field>
+                                                <field name="NAME">=</field>
+                                                <value name="varset">
+                                                  <shadow type="textinline" id="v5g+Id(;4E6;R]rw~R?o">
+                                                    <field name="text">v % 2</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="setpixelnew" id="MKL|k[IK5j1:wy@|pl3b">
+                                                    <value name="text">
+                                                      <shadow type="textinline" id="S9VZfs@;47SQV=WB9ide">
+                                                        <field name="text">leds[i][0], leds[i][1], int(vBit * 9)</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="variables_set" id="7:_WWX?g2[ut|u4GCP78">
+                                                        <field name="VAR" id="aA#SwFqocg?*1Z3#ah5h" variabletype="">v</field>
+                                                        <field name="NAME">=</field>
+                                                        <value name="varset">
+                                                          <shadow type="textinline" id="i%02OIilHMV7^k|a]8,!">
+                                                            <field name="text">int(v / 2)</field>
+                                                          </shadow>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </statement>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </statement>
+                                    <next>
+                                      <block type="variables_set" id="#rU/U;Xm^6S1yQAL`m2Z">
+                                        <field name="VAR" id="Kw*?4v5*8L8QffcLZs[V" variabletype="">lastTime</field>
+                                        <field name="NAME">=</field>
+                                        <value name="varset">
+                                          <shadow type="textinline" id="e`l3X{`_=g8gv]H-,myL">
+                                            <field name="text">0</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="variables_set" id="7XzB%0zv/CVTcT6t3k1]">
+                                            <field name="VAR" id="KTU`NZN,oK}8wa;#}^i[" variabletype="">tick</field>
+                                            <field name="NAME">=</field>
+                                            <value name="varset">
+                                              <shadow type="textinline" id="h)+{2w|w@[~1NHzwbkcF">
+                                                <field name="text">1000 + adjust</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
