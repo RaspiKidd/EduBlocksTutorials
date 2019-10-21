@@ -1,18 +1,18 @@
 # Binary Clock
 
-Within this tutorial you are going to create a binary clock using a micro:bit. Binary is a numbering system computers use.
+Within this tutorial, you are going to create a binary clock using a micro:bit. Binary is a numbering system computers use.
 
-you will keep track of the time by displayng the hours, minutes and seconds as seperate binary numbers on the micro:bit LED display.
+you will keep track of the time by displaying the hours, minutes and seconds as separate binary numbers on the micro:bit LED display.
 
 ## Reading the clock
 
 To read the clock you start on the top row of LEDs, this row represents the hours.
 
-Each column of LEDs represents a number. From right to left the columns are numbered 1, 2, 4, 8 and 16. By adding these 5 numbers you can get every value of a 24 hour clock.
+Each column of LEDs represents a number. From right to left the columns are numbered 1, 2, 4, 8 and 16. By adding these 5 numbers you can get every value of a 24-hour clock.
 
 The middle two rows represent the minutes and the bottom two rows represent the seconds. Since for the minutes and seconds you need to be able to count up to 60, the left LED on the upper rows represents 32. (See the graphical representation below)
 
-![Binary Clock](BinaryClock.png)
+![Binary Clock](binaryClock.png)
 
 ## You Will Need
 
@@ -28,7 +28,7 @@ The middle two rows represent the minutes and the bottom two rows represent the 
 
 There are a few variables that you will need, so let's get these out of the way first.
 
-To create a variable click on **Variables** then click on **Create variable...**. This will bring up a text box for you to enter the name of the variable.  Do this for each of the following varibales
+To create a variable click on **Variables** then click on **Create variable...**. This will bring up a text box for you to enter the name of the variable.  Do this for each of the following variables:
 
 [ ] secLeds
 
@@ -58,7 +58,7 @@ To create a variable click on **Variables** then click on **Create variable...**
 
 [ ] v
 
-### Importing micro:bit library and settig up variables
+### Importing micro:bit library and setting up variables
 
 1. Click on **Basic**  
    
@@ -96,7 +96,7 @@ To create a variable click on **Variables** then click on **Create variable...**
     
 18. Click on **Variables**. Click and drag **adjust = 0** block to the coding area and attach it under **seconds = 0**
     
-19.  Click on the **0** and type **-10**
+19. Click on the **0** and type **-10**
 
 Your code should now look like this:
 
@@ -146,13 +146,13 @@ Your code should now look like this:
 
 ![Code Block 2](CodeBlock02.png)
 
-### updating The Time
+### Updating The Time
 
 Creating a function to update the time
 
 1. Click on **Basic**, click and drag  **def ():** block to the coding area and attach it under **tick = 1000 = adjust**
 
-2. Click in the fisrt blank space and type **updateTime**
+2. Click on the first blank space and type **updateTime**
 
 3. Click on **Basic**, click and drag a **#your own code** block to the coding area and attach it within the **def updateTime** block
 
@@ -164,7 +164,7 @@ Creating a function to update the time
 
 7. Click on **Basic**, click and drag an **if True:** block to the coding area and attach it under **seconds += 1**
 
-8. Click on **Basic** and click and drag a **0 == 0** block to the coding area and attach it withn the **if True** block where it saysa **True**
+8. Click on **Basic** and click and drag a **0 == 0** block to the coding area and attach it within the **if True** block where it says **True**
 
 9. Click on **Variables**, click and drag a **seconds** block to the coding area and attach it within the first **0** of the **if** block, click on the small arrow next to the **==** sign and click on **>**, click on **0** and type **59**
 
@@ -176,7 +176,7 @@ Creating a function to update the time
 
 13. Click on the arrow next to **adjust** and click on **minutes**, click on the arrow next to **=** and click on **+=** click on **0** and type **1**
 
-14. Right click on the **if seconds > 59:** block and click on **Duplicate** this will duplicate the if statement. Connect this block under the under if block.
+14. Right-click on the **if seconds > 59:** block and click on **Duplicate** this will duplicate the if statement. Connect this block under the under if block.
 
 15. Click on the arrow next to **seconds** in the second if statement and click on **minutes**
 
@@ -184,7 +184,7 @@ Creating a function to update the time
 
 17. Click on the arrow on the block below and click on **hours**
 
-18. Right click on the **if minutes > 59:** and click **Duplicate** attach it below the other if statement
+18. Right-click on the **if minutes > 59:** and click **Duplicate** attach it below the other if statement
 
 19. Click on the arrows next to the **minutes** within the last if block and change them to **hours** 
 
@@ -195,3 +195,87 @@ Creating a function to update the time
 Your code should now look like this:
 
 ![Code Block 3](CodeBlock03.png)
+
+### Displaying The Time
+
+Creating a function that will display the time on the micro:bit
+
+1. Click on **Basic**, click and drag a **def ():** to the coding area and attach it under **def updateTime ():**
+
+2. Within the first gap of the **def ():** block type **displayTime**
+
+3. Click on **Basic**, click and drag a **function_name ()** block to the coding area and attach it within **def displayTime ()**
+
+4. Click on **Variables**, click and drag a **displayBinary** block to the coding area and attach it where the block says **function_name**
+
+5. Within the blank space between the brackets type **seconds, 6, secLeds**
+
+6. Right click on **displayBinary (seconds, 6, secLeds)** and click **Duplicate**, attach it below the **displayBinary (seconds, 6, SecLeds)** block
+
+7. Update the block to read **displayBinary (minutes, 6, minLeds)**
+
+8. Right click on the **displayBinary (minutes, 6, minLeds)** and click **Duplicate** attach the block below **displayBinary (minutes, 6, minLeds)** 
+
+9. Update the block to read **displayBinary (hours, 5, hourLeds)**
+
+Your code should now look like this:
+
+![Code Block 4](CodeBlock04.png)
+
+### Main Loop
+
+This will bring all of your code together and make your binary clock work!
+
+1. Click on **Basic**, click and drag a **while True:** block to the coding area and attach it under **def displayTime ():**
+
+2. Click on **Basic**, click and drag an **if True:** block to the coding area and attach it within the **while True:** block
+
+3. Click on **Buttons**, click and drag a **button_a.is_pressed** block to the coding area and attach it within the **True** of the **if** block
+
+4. Click on **Variables**, click and drag an **adjust = 0** block to the coding area and attach it within the **if button_a.is_pressed** block. Click on the arrow next to **adjust** and click on tick. Click on the 0 and type **10**
+
+5. Click on  **Basic**, click and drag an **else:** block to the coding area and attach it under the **if button_a.is_pressed():** block
+
+6. Click on **Variables**, click and drag an **adjust = 0** block to the code area and attach it within the **else:** block. Click on the arrow next to **adjust** and click on **tick**. Click on the 0 and type **1000 + adjust**
+
+7. Click on **Variables**, click and drag an **adjust = 0** block to the code area and attach it under the **else:** block. Click on the arrow next to **adjust** and click on **now**. Click on **0** and type **running_time()**
+
+8. Click on **Variables**, click and drag an **adjust = 0** block to the code area and attach it under **now = running_time()**. Click on the arrow next to **adjust** and click on **elapsedMs**
+
+9. Click on **Basic**, click and drag a **2 + 3** block to the code area and attach it within the **0** of **elapsedMs = 0**
+
+10. Click on **Variables**, Click and drag a *now block to the code area and attach it within the first **2** of the **elapsedMs = 2 + 3** block. Click on the arrow next to **+** and click on **-**
+
+11. Click on **Variables**, click and drag a **listTime** block to the code area and attach it within the **3** of the **elapsedMs = now - 3** code block
+
+12. Click on **Basic**, click and drag an **if True:** block to the code area and attach it under **elapsedMs = now - lastTime**
+
+13. Click on **Basic** click and drag a **0 == 0** and attach it within **True** of the **if True:** block
+
+14. Click on **Variables**, click and drag an **elapsedMs** block to the code area and attach it within the first **0** of the **if 0 == 0** block. Click on the arrow next to **==** and click on **>=**
+
+15. Click on **Variables**, click and drag a **tick** block to the coding area and attach it within the **0** of **if elapsedMs >= 0**
+
+16. Click on **Basic**, click and drag a **function_name ()** block to the code area and attach it within the **if elapsedMs >= tick:** block. Click where it says **function_name** and type **updateTime**
+
+17. Right click on **updateTime** and click **Duplicate**. Attach the block under **updateTime ()**. Click on **updateTime** and type **displayTime**
+
+18. Click on **Variables**, click and drag an **adjust = 0** block to the code area and attach it under **displayTime ()** block. Click on the arrow next to **adjust** and click on **lastTime**
+
+19. Click on **Variables**, click and drag a **now** to the code area and attach it within the **0** of **lastTime = 0** block
+
+Your code is now complete and should look like this:
+
+![Code Block 5](CodeBlock05.png)
+
+## Setting The Time
+
+Now to set the correct time of your micro:bit.
+
+1. Scroll back to the top of your code and locate the blocks that say hour = 0, minutes = 0 and seconds = 0. (as shown below)
+
+![Code Block 6](CodeBlock06.png)
+
+2. Type the current time into the appropriate box. e.g. if the time was 2:15 your code would look like this:
+
+![Code Block 7](CodeBlock07.png)
