@@ -146,6 +146,8 @@ Your code should now look like this:
 
 ![Code Block 2](CodeBlock02.png)
 
+<br>
+
 ### Updating The Time
 
 Creating a function to update the time
@@ -222,6 +224,8 @@ Your code should now look like this:
 
 ![Code Block 4](CodeBlock04.png)
 
+<br>
+
 ### Main Loop
 
 This will bring all of your code together and make your binary clock work!
@@ -265,7 +269,6 @@ This will bring all of your code together and make your binary clock work!
 19. Click on **Variables**, click and drag a **now** to the code area and attach it within the **0** of **lastTime = 0** block
 
 Your code is now complete and should look like this:
-
 ![Code Block 5](CodeBlock05.png)
 
 ## Setting The Time
@@ -279,3 +282,4 @@ Now to set the correct time of your micro:bit.
 2. Type the current time into the appropriate box. e.g. if the time was 2:15 your code would look like this:
 
 ![Code Block 7](CodeBlock07.png)
+
