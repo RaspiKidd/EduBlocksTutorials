@@ -47,6 +47,8 @@ Your code should look like this:
 
 ![LED on code](Images/LEDon.png)
 
+To run the code click on **Run** at the top of the editor.
+
 ### Turning an LED Off
 
 To turn the LED off click on the small arrow next to **on** within the **led.on()** block and click on **off**.
@@ -55,6 +57,8 @@ Your code should look like this:
 
 ![LED off code](Images/LEDoff.png)
 
+Now Click on **Run** to see the LED turn off.
+
 ### Making an LED Blink
 
 To make the LED blink on and off click on the small arrow next to **off** within the **led.off()** block and click on **blink**.
@@ -62,5 +66,7 @@ To make the LED blink on and off click on the small arrow next to **off** within
 Your code should look like this:
 
 ![LED off code](Images/LEDblink.png)
+
+Now click on **Run** to see the LED blink on and off.
 
 You now know how to control an LED using a Raspberry Pi and EduBlocks
