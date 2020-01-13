@@ -22,4 +22,8 @@ Within this tutorial you are going to learn how to code a dice using a BBC micro
 
 10. Click on **Display**, click and drag a **display.show(Image.HAPPY)** to the coding area and attach it within the **if accelerometer.is_gesture('shake')** 
 
-11. 
+11. Click on **Variables**, click and drag a **dice** block to the coding area and attach it within the **display.show** block where it says **Image.HAPPY**
+
+Your code should look like this:
+
+![Simple Dice](SimpleDice.png)
