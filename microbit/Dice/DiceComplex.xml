@@ -1,0 +1,469 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="C]_AYjgl]eSRN+zxLlU:">dice</variable>
+    <variable type="" id="2tm!}[c.E`pX1Wa0k/gh">i</variable>
+    <variable type="" id="@TuU*gbx=y}:/$CK5EFz">var</variable>
+    <variable type="" id="Gmtq]J!cp^bD`HQ}Oi8m">two</variable>
+    <variable type="" id="RNUiOr,=.)}8/w9p-RS=">one</variable>
+    <variable type="" id="Haxx)Bl4aDEUUPLn~MjB">three</variable>
+    <variable type="" id="7NYgAi.gf]!qL?*M)Y0a">four</variable>
+    <variable type="" id="#cNgY40@+0C-TZ#{g+P)">five</variable>
+    <variable type="" id="8*f[X^vuY4T^_a#D4kgj">six</variable>
+    <variable type="" id="J_/-)l!jf%TQv^skVW2#">image</variable>
+    <variable type="" id="P+H9!sYfI(Ys|?`W0=:u">j</variable>
+    <variable type="" id="([BZ3uZ#K:nH1o@0zMhc">k</variable>
+  </variables>
+  <block type="import_microbit" id="N}p6[!Z4YJDcjO[dO5Fx" x="51" y="24">
+    <next>
+      <block type="random" id="@B$XEM+(qDq}G@H-D9n`">
+        <next>
+          <block type="imagecreate" id="Co[cxSVrUea#z,bm.CQZ">
+            <field name="image" id="RNUiOr,=.)}8/w9p-RS=" variabletype="">one</field>
+            <field name="1">0</field>
+            <field name="2">0</field>
+            <field name="3">0</field>
+            <field name="4">0</field>
+            <field name="5">0</field>
+            <field name="6">0</field>
+            <field name="7">0</field>
+            <field name="8">0</field>
+            <field name="9">0</field>
+            <field name="10">0</field>
+            <field name="11">0</field>
+            <field name="12">0</field>
+            <field name="13">9</field>
+            <field name="14">0</field>
+            <field name="15">0</field>
+            <field name="16">0</field>
+            <field name="17">0</field>
+            <field name="18">0</field>
+            <field name="19">0</field>
+            <field name="20">0</field>
+            <field name="21">0</field>
+            <field name="22">0</field>
+            <field name="23">0</field>
+            <field name="24">0</field>
+            <field name="25">0</field>
+            <next>
+              <block type="imagecreate" id="+DyA[_vP]]+5SS2,|z(!">
+                <field name="image" id="Gmtq]J!cp^bD`HQ}Oi8m" variabletype="">two</field>
+                <field name="1">0</field>
+                <field name="2">0</field>
+                <field name="3">0</field>
+                <field name="4">0</field>
+                <field name="5">0</field>
+                <field name="6">0</field>
+                <field name="7">9</field>
+                <field name="8">0</field>
+                <field name="9">0</field>
+                <field name="10">0</field>
+                <field name="11">0</field>
+                <field name="12">0</field>
+                <field name="13">0</field>
+                <field name="14">0</field>
+                <field name="15">0</field>
+                <field name="16">0</field>
+                <field name="17">0</field>
+                <field name="18">0</field>
+                <field name="19">9</field>
+                <field name="20">0</field>
+                <field name="21">0</field>
+                <field name="22">0</field>
+                <field name="23">0</field>
+                <field name="24">0</field>
+                <field name="25">0</field>
+                <next>
+                  <block type="imagecreate" id=".Y)gr$u^Ug9n0P,;H=Tk">
+                    <field name="image" id="Haxx)Bl4aDEUUPLn~MjB" variabletype="">three</field>
+                    <field name="1">0</field>
+                    <field name="2">0</field>
+                    <field name="3">0</field>
+                    <field name="4">0</field>
+                    <field name="5">0</field>
+                    <field name="6">0</field>
+                    <field name="7">9</field>
+                    <field name="8">0</field>
+                    <field name="9">0</field>
+                    <field name="10">0</field>
+                    <field name="11">0</field>
+                    <field name="12">0</field>
+                    <field name="13">9</field>
+                    <field name="14">0</field>
+                    <field name="15">0</field>
+                    <field name="16">0</field>
+                    <field name="17">0</field>
+                    <field name="18">0</field>
+                    <field name="19">9</field>
+                    <field name="20">0</field>
+                    <field name="21">0</field>
+                    <field name="22">0</field>
+                    <field name="23">0</field>
+                    <field name="24">0</field>
+                    <field name="25">0</field>
+                    <next>
+                      <block type="imagecreate" id="|f(DfG+qF|a$iCECF+[K">
+                        <field name="image" id="7NYgAi.gf]!qL?*M)Y0a" variabletype="">four</field>
+                        <field name="1">0</field>
+                        <field name="2">0</field>
+                        <field name="3">0</field>
+                        <field name="4">0</field>
+                        <field name="5">0</field>
+                        <field name="6">0</field>
+                        <field name="7">9</field>
+                        <field name="8">0</field>
+                        <field name="9">9</field>
+                        <field name="10">0</field>
+                        <field name="11">0</field>
+                        <field name="12">0</field>
+                        <field name="13">0</field>
+                        <field name="14">0</field>
+                        <field name="15">0</field>
+                        <field name="16">0</field>
+                        <field name="17">9</field>
+                        <field name="18">0</field>
+                        <field name="19">9</field>
+                        <field name="20">0</field>
+                        <field name="21">0</field>
+                        <field name="22">0</field>
+                        <field name="23">0</field>
+                        <field name="24">0</field>
+                        <field name="25">0</field>
+                        <next>
+                          <block type="imagecreate" id="EkYYQL)+NKMNHOsV!oCP">
+                            <field name="image" id="#cNgY40@+0C-TZ#{g+P)" variabletype="">five</field>
+                            <field name="1">0</field>
+                            <field name="2">0</field>
+                            <field name="3">0</field>
+                            <field name="4">0</field>
+                            <field name="5">0</field>
+                            <field name="6">0</field>
+                            <field name="7">9</field>
+                            <field name="8">0</field>
+                            <field name="9">9</field>
+                            <field name="10">0</field>
+                            <field name="11">0</field>
+                            <field name="12">0</field>
+                            <field name="13">9</field>
+                            <field name="14">0</field>
+                            <field name="15">0</field>
+                            <field name="16">0</field>
+                            <field name="17">9</field>
+                            <field name="18">0</field>
+                            <field name="19">9</field>
+                            <field name="20">0</field>
+                            <field name="21">0</field>
+                            <field name="22">0</field>
+                            <field name="23">0</field>
+                            <field name="24">0</field>
+                            <field name="25">0</field>
+                            <next>
+                              <block type="imagecreate" id="JmSXAsE;,l+^sYEeCodl">
+                                <field name="image" id="8*f[X^vuY4T^_a#D4kgj" variabletype="">six</field>
+                                <field name="1">0</field>
+                                <field name="2">0</field>
+                                <field name="3">0</field>
+                                <field name="4">0</field>
+                                <field name="5">0</field>
+                                <field name="6">0</field>
+                                <field name="7">9</field>
+                                <field name="8">0</field>
+                                <field name="9">9</field>
+                                <field name="10">0</field>
+                                <field name="11">0</field>
+                                <field name="12">9</field>
+                                <field name="13">0</field>
+                                <field name="14">9</field>
+                                <field name="15">0</field>
+                                <field name="16">0</field>
+                                <field name="17">9</field>
+                                <field name="18">0</field>
+                                <field name="19">9</field>
+                                <field name="20">0</field>
+                                <field name="21">0</field>
+                                <field name="22">0</field>
+                                <field name="23">0</field>
+                                <field name="24">0</field>
+                                <field name="25">0</field>
+                                <next>
+                                  <block type="scrollnew" id="[_p|a.v({}{Sr1jZf![0">
+                                    <value name="displaytext">
+                                      <shadow type="textinline" id="pt|4fd9q=a[|8^T5XIB}">
+                                        <field name="text">Shake ME!</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="whileout" id="pY(=-7ua5AfK0^-Ri|:%">
+                                        <value name="cond">
+                                          <shadow type="textinline" id="PD*TOI_8yg5jK%FA3ZW$">
+                                            <field name="text">True</field>
+                                          </shadow>
+                                        </value>
+                                        <statement name="DO">
+                                          <block type="variables_set" id="V-`.-n0@B3kqRZ#u9c]9">
+                                            <field name="VAR" id="C]_AYjgl]eSRN+zxLlU:" variabletype="">dice</field>
+                                            <field name="NAME">=</field>
+                                            <value name="varset">
+                                              <shadow type="textinline" id="L;G]z@#6Nc_-4?C-9SX/">
+                                                <field name="text">random.randint(1,6)</field>
+                                              </shadow>
+                                            </value>
+                                            <next>
+                                              <block type="ifinline" id="JdDe}D6xzMeW3}nerVw_">
+                                                <value name="iftext">
+                                                  <shadow type="textinline" id="~gV1Z~0JaXHS}G*/dw,$">
+                                                    <field name="text">True</field>
+                                                  </shadow>
+                                                  <block type="accisgesturenew" id="T3dS56S=xrOYslX(dU}n">
+                                                    <value name="text">
+                                                      <shadow type="accgestures" id="U3;T6b:BINQUv!SfpfFy">
+                                                        <field name="gestures">'shake'</field>
+                                                      </shadow>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <statement name="ifstate">
+                                                  <block type="ifinline" id="Vc%eto+_9T-v1t(w*s%b">
+                                                    <value name="iftext">
+                                                      <shadow type="textinline" id="t+lw$2acXpv}VfnPgyt?">
+                                                        <field name="text">True</field>
+                                                      </shadow>
+                                                      <block type="internal" id="PpQ$9KUefz.,G5C?Z?${">
+                                                        <field name="choose">==</field>
+                                                        <value name="first">
+                                                          <shadow type="textinline" id="}2j4{}.DNn2K/jl[66J!">
+                                                            <field name="text">0</field>
+                                                          </shadow>
+                                                          <block type="variables_get" id="PED90WK5rM)gY=#QZLA3">
+                                                            <field name="VAR" id="C]_AYjgl]eSRN+zxLlU:" variabletype="">dice</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="last">
+                                                          <shadow type="textinline" id="k$SqloGz*T*TD:}vq2fB">
+                                                            <field name="text">1</field>
+                                                          </shadow>
+                                                        </value>
+                                                      </block>
+                                                    </value>
+                                                    <statement name="ifstate">
+                                                      <block type="imagenew" id="vI6984O=bA`{l4FfuA4D">
+                                                        <value name="imagevar">
+                                                          <shadow type="textinline" id="@=VG71AODt}V8t{Yr:sd">
+                                                            <field name="text">Image.HAPPY</field>
+                                                          </shadow>
+                                                          <block type="variables_get" id="?85r:|W%PU3Hy=J.l#!7">
+                                                            <field name="VAR" id="RNUiOr,=.)}8/w9p-RS=" variabletype="">one</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </statement>
+                                                    <next>
+                                                      <block type="ifinline" id="1)/e{_###H8GXyvPzA_A">
+                                                        <value name="iftext">
+                                                          <shadow type="textinline" id="t+lw$2acXpv}VfnPgyt?">
+                                                            <field name="text">True</field>
+                                                          </shadow>
+                                                          <block type="internal" id="hW|`_v-/%nRd5!xR4G!%">
+                                                            <field name="choose">==</field>
+                                                            <value name="first">
+                                                              <shadow type="textinline" id="}2j4{}.DNn2K/jl[66J!">
+                                                                <field name="text">0</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="-tBLmy+)=C+2JV43_x]Q">
+                                                                <field name="VAR" id="C]_AYjgl]eSRN+zxLlU:" variabletype="">dice</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="last">
+                                                              <shadow type="textinline" id="8@{uv[{gAG}szH4O[z/6">
+                                                                <field name="text">2</field>
+                                                              </shadow>
+                                                            </value>
+                                                          </block>
+                                                        </value>
+                                                        <statement name="ifstate">
+                                                          <block type="imagenew" id="B^0S6IxS!ym+M:gT5/9;">
+                                                            <value name="imagevar">
+                                                              <shadow type="textinline" id="@=VG71AODt}V8t{Yr:sd">
+                                                                <field name="text">Image.HAPPY</field>
+                                                              </shadow>
+                                                              <block type="variables_get" id="Fw|8hb{cdrq^n]y73},@">
+                                                                <field name="VAR" id="Gmtq]J!cp^bD`HQ}Oi8m" variabletype="">two</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </statement>
+                                                        <next>
+                                                          <block type="ifinline" id="#*$]QL:n-BTi%@AEombA">
+                                                            <value name="iftext">
+                                                              <shadow type="textinline" id="t+lw$2acXpv}VfnPgyt?">
+                                                                <field name="text">True</field>
+                                                              </shadow>
+                                                              <block type="internal" id=".T_n6BL4KPJ96rr*jwb*">
+                                                                <field name="choose">==</field>
+                                                                <value name="first">
+                                                                  <shadow type="textinline" id="}2j4{}.DNn2K/jl[66J!">
+                                                                    <field name="text">0</field>
+                                                                  </shadow>
+                                                                  <block type="variables_get" id="Q0ss89zh^|Lk_F2@C.zp">
+                                                                    <field name="VAR" id="C]_AYjgl]eSRN+zxLlU:" variabletype="">dice</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="last">
+                                                                  <shadow type="textinline" id="S^Q0$,5hl5,i0;dEK8Yd">
+                                                                    <field name="text">3</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <statement name="ifstate">
+                                                              <block type="imagenew" id="4F!#8ieG[]R`DVmpa~[%">
+                                                                <value name="imagevar">
+                                                                  <shadow type="textinline" id="@=VG71AODt}V8t{Yr:sd">
+                                                                    <field name="text">Image.HAPPY</field>
+                                                                  </shadow>
+                                                                  <block type="variables_get" id="eiE)_Gw:7Z$O?3`.!~cF">
+                                                                    <field name="VAR" id="Haxx)Bl4aDEUUPLn~MjB" variabletype="">three</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </statement>
+                                                            <next>
+                                                              <block type="ifinline" id="Q/ahl/6|y0(2%k-n5/nQ">
+                                                                <value name="iftext">
+                                                                  <shadow type="textinline" id="t+lw$2acXpv}VfnPgyt?">
+                                                                    <field name="text">True</field>
+                                                                  </shadow>
+                                                                  <block type="internal" id="x}a-*,[M%B[Y8w.*x_8S">
+                                                                    <field name="choose">==</field>
+                                                                    <value name="first">
+                                                                      <shadow type="textinline" id="}2j4{}.DNn2K/jl[66J!">
+                                                                        <field name="text">0</field>
+                                                                      </shadow>
+                                                                      <block type="variables_get" id=")D^?OL}|KDV.{UoegS?E">
+                                                                        <field name="VAR" id="C]_AYjgl]eSRN+zxLlU:" variabletype="">dice</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <value name="last">
+                                                                      <shadow type="textinline" id="2`)/{$c|M3D7$)M?zhmL">
+                                                                        <field name="text">4</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                  </block>
+                                                                </value>
+                                                                <statement name="ifstate">
+                                                                  <block type="imagenew" id="-#zcn6!:ciM5_Ildz4qt">
+                                                                    <value name="imagevar">
+                                                                      <shadow type="textinline" id="@=VG71AODt}V8t{Yr:sd">
+                                                                        <field name="text">Image.HAPPY</field>
+                                                                      </shadow>
+                                                                      <block type="variables_get" id="oD9N4MTJm,;-N]c9;4g9">
+                                                                        <field name="VAR" id="7NYgAi.gf]!qL?*M)Y0a" variabletype="">four</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </statement>
+                                                                <next>
+                                                                  <block type="ifinline" id="Kce5#%P8mEDg%VpDkq$[">
+                                                                    <value name="iftext">
+                                                                      <shadow type="textinline" id="t+lw$2acXpv}VfnPgyt?">
+                                                                        <field name="text">True</field>
+                                                                      </shadow>
+                                                                      <block type="internal" id="RsUj.)jdrKnUFs!VxcYK">
+                                                                        <field name="choose">==</field>
+                                                                        <value name="first">
+                                                                          <shadow type="textinline" id="}2j4{}.DNn2K/jl[66J!">
+                                                                            <field name="text">0</field>
+                                                                          </shadow>
+                                                                          <block type="variables_get" id="{a0xtC2%FZ#JYgtr4]y|">
+                                                                            <field name="VAR" id="C]_AYjgl]eSRN+zxLlU:" variabletype="">dice</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="last">
+                                                                          <shadow type="textinline" id="VFy4|4$Y1VPUI,gD3,wO">
+                                                                            <field name="text">5</field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                      </block>
+                                                                    </value>
+                                                                    <statement name="ifstate">
+                                                                      <block type="imagenew" id="A[x9(H~bC/oeRs#I6qtj">
+                                                                        <value name="imagevar">
+                                                                          <shadow type="textinline" id="@=VG71AODt}V8t{Yr:sd">
+                                                                            <field name="text">Image.HAPPY</field>
+                                                                          </shadow>
+                                                                          <block type="variables_get" id="1=xemR=W$,l}}9]m:i%p">
+                                                                            <field name="VAR" id="#cNgY40@+0C-TZ#{g+P)" variabletype="">five</field>
+                                                                          </block>
+                                                                        </value>
+                                                                      </block>
+                                                                    </statement>
+                                                                    <next>
+                                                                      <block type="ifinline" id="w~%QJ;itKD19i)IUI,d_">
+                                                                        <value name="iftext">
+                                                                          <shadow type="textinline" id="t+lw$2acXpv}VfnPgyt?">
+                                                                            <field name="text">True</field>
+                                                                          </shadow>
+                                                                          <block type="internal" id="q4/+~-_=98q?w=.[D$AK">
+                                                                            <field name="choose">==</field>
+                                                                            <value name="first">
+                                                                              <shadow type="textinline" id="}2j4{}.DNn2K/jl[66J!">
+                                                                                <field name="text">0</field>
+                                                                              </shadow>
+                                                                              <block type="variables_get" id="x2KovakD-?AYHDTvQZo9">
+                                                                                <field name="VAR" id="C]_AYjgl]eSRN+zxLlU:" variabletype="">dice</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="last">
+                                                                              <shadow type="textinline" id="JIG=e:%BsS^.vvR!9II%">
+                                                                                <field name="text">6</field>
+                                                                              </shadow>
+                                                                            </value>
+                                                                          </block>
+                                                                        </value>
+                                                                        <statement name="ifstate">
+                                                                          <block type="imagenew" id="4c5pNU=v9-X?BoY:`Dv7">
+                                                                            <value name="imagevar">
+                                                                              <shadow type="textinline" id="@=VG71AODt}V8t{Yr:sd">
+                                                                                <field name="text">Image.HAPPY</field>
+                                                                              </shadow>
+                                                                              <block type="variables_get" id="NyHw;?MmiKU,#:60VUj~">
+                                                                                <field name="VAR" id="8*f[X^vuY4T^_a#D4kgj" variabletype="">six</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </statement>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </statement>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </statement>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

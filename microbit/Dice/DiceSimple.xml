@@ -1,0 +1,61 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="C]_AYjgl]eSRN+zxLlU:">dice</variable>
+    <variable type="" id="2tm!}[c.E`pX1Wa0k/gh">i</variable>
+    <variable type="" id="@TuU*gbx=y}:/$CK5EFz">var</variable>
+  </variables>
+  <block type="import_microbit" id="N}p6[!Z4YJDcjO[dO5Fx" x="51" y="24">
+    <next>
+      <block type="random" id="@B$XEM+(qDq}G@H-D9n`">
+        <next>
+          <block type="whileout" id="pY(=-7ua5AfK0^-Ri|:%">
+            <value name="cond">
+              <shadow type="textinline" id="PD*TOI_8yg5jK%FA3ZW$">
+                <field name="text">True</field>
+              </shadow>
+            </value>
+            <statement name="DO">
+              <block type="variables_set" id="V-`.-n0@B3kqRZ#u9c]9">
+                <field name="VAR" id="C]_AYjgl]eSRN+zxLlU:" variabletype="">dice</field>
+                <field name="NAME">=</field>
+                <value name="varset">
+                  <shadow type="textinline" id="L;G]z@#6Nc_-4?C-9SX/">
+                    <field name="text">random.randint(1,6)</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="ifinline" id="Vc%eto+_9T-v1t(w*s%b">
+                    <value name="iftext">
+                      <shadow type="textinline" id="t+lw$2acXpv}VfnPgyt?">
+                        <field name="text">True</field>
+                      </shadow>
+                      <block type="accisgesturenew" id="^KY#cJHAoN+1sz6?phyl">
+                        <value name="text">
+                          <shadow type="accgestures" id="Ir}Ro1ai/9M+h3pV*c3h">
+                            <field name="gestures">'shake'</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="ifstate">
+                      <block type="imagenew" id="vI6984O=bA`{l4FfuA4D">
+                        <value name="imagevar">
+                          <shadow type="textinline" id="@=VG71AODt}V8t{Yr:sd">
+                            <field name="text">Image.HAPPY</field>
+                          </shadow>
+                          <block type="variables_get" id="?85r:|W%PU3Hy=J.l#!7">
+                            <field name="VAR" id="C]_AYjgl]eSRN+zxLlU:" variabletype="">dice</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
